@@ -642,7 +642,7 @@ header .icons #menu-bars{
     }
 }
 
-@media (max-width:665px){
+@media (max-width:650px){
     header .icons #menu-bars{
         display: inline-block;
     }
@@ -681,7 +681,7 @@ header .icons #menu-bars{
     }
 }
 
-@media (max-width: 900px){
+@media (max-width: 480px){
     html{
         font-size: 50%;
     }
@@ -689,7 +689,7 @@ header .icons #menu-bars{
         height: auto;
         width: 100%;
     }
-    .order form .inputBox .input{
+    .order form .inputBox .input :auto{
         width: 100%;
     }
 }
