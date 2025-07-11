@@ -498,7 +498,7 @@ header .icons #menu-bars{
 }    
 
 .order form{
-    width: 90rem;
+    max-width: 90rem;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     border: .1rem solid rgba(0,0,0,.2);
@@ -628,7 +628,7 @@ header .icons #menu-bars{
 
 
 /* media queries */
-@media (max-width: 900px){
+@media (max-width: 991px){
     html{
         font-size: 55%;
     }
@@ -642,7 +642,7 @@ header .icons #menu-bars{
     }
 }
 
-@media (max-width:650px){
+@media (max-width:768px){
     header .icons #menu-bars{
         display: inline-block;
     }
@@ -681,7 +681,7 @@ header .icons #menu-bars{
     }
 }
 
-@media (max-width: 480px){
+@media (max-width: 450px){
     html{
         font-size: 50%;
     }
@@ -690,6 +690,6 @@ header .icons #menu-bars{
         width: 100%;
     }
     .order form .inputBox .input {
-        width: 50%;
+        width: 100%;
     }
 }
