@@ -689,7 +689,7 @@ header .icons #menu-bars{
         height: auto;
         width: 100%;
     }
-    .order form .inputBox .input :auto{
-        width: 100%;
+    .order form .inputBox .input {
+        width: 50%;
     }
 }
