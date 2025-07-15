@@ -59,19 +59,23 @@ var swiper = new Swiper(".review-slide", {
     disableOnInteraction: false,
     },
     loop: true,
-    breakpoints:{
-        0:{
-            slidesPerView: 1,
-        },
-        640:{
-            slidesPerView: 2,
-        },
-        768:{
-            slidesPerView: 2,
-        },
-        1024:{
-            slidesPerView: 3,
-        },
+    // breakpoints:{
+    //     0:{
+    //         slidesPerView: 1,
+    //     },
+    //     640:{
+    //         slidesPerView: 2,
+    //     },
+    //     768:{
+    //         slidesPerView: 2,
+    //     },
+    //     1024:{
+    //         slidesPerView: 3,
+    //     },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
     },
 });
 
