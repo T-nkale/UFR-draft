@@ -64,13 +64,13 @@ var swiper = new Swiper(".review-slide", {
             slidesPerView: 1,
         },
         450:{
-            slidesPerView: 1,
+            slidesPerView: 2,
         },
         768:{
-            slidesPerView: 1,
+            slidesPerView: 2,
         },
         991:{
-            slidesPerView: 1,
+            slidesPerView: 3,
         },
     },
 });
