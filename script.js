@@ -51,7 +51,7 @@ var swiper = new Swiper(".home-slider", {
     loop: true,
 });
 
-var swiper = new Swiper(".review-slider", {
+var swiper = new Swiper(".review-slide", {
     spaceBetween: 20,
     centeredSlides: true,
     autoplay: {
