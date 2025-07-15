@@ -468,8 +468,7 @@ header .icons #menu-bars{
 }
 
 .review .slide{
-/*     padding: 2rem; */
-    padding: 50px 0 100px;
+    padding: 2rem;
     box-shadow: var(--box-shadow);
     border: .1rem solid rgba(0,0,0,.2);
     border-radius: .5rem;
