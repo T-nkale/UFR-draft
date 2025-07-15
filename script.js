@@ -70,7 +70,7 @@ var swiper = new Swiper(".review-slide", {
             slidesPerView: 1,
         },
         991:{
-            slidesPerView: 3,
+            slidesPerView: 1,
         },
     },
 });
