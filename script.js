@@ -59,20 +59,20 @@ var swiper = new Swiper(".review-slide", {
     disableOnInteraction: false,
     },
     loop: true,
-    breakpoints:{
-        0:{
-            slidesPerView: 1,
-        },
-        450:{
-            slidesPerView: 2,
-        },
-        768:{
-            slidesPerView: 2,
-        },
-        991:{
-            slidesPerView: 3,
-        },
-    },
+    // breakpoints:{
+    //     0:{
+    //         slidesPerView: 1,
+    //     },
+    //     450:{
+    //         slidesPerView: 2,
+    //     },
+    //     768:{
+    //         slidesPerView: 2,
+    //     },
+    //     991:{
+    //         slidesPerView: 3,
+    //     },
+    // },
 });
 
 function loader(){
